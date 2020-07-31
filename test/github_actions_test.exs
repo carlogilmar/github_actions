@@ -3,6 +3,6 @@ defmodule GithubActionsTest do
   doctest GithubActions
 
   test "greets the world" do
-    assert GithubActions.hello() == :world
+    assert 1 == 2
   end
 end
