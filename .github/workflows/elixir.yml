@@ -25,11 +25,11 @@ jobs:
     - name: Run tests
       run: mix test
     - name: "Commit CI"
-		  run: |
-			echo "Haciendo el poderoso commit!"
-			date > generated.txt
-			git config user.name github-actions
-			git config user.email github-actions@github.com
-			git add .
-			git commit -m "GitHub Actions: This is cool!"
-			git push
+			run: |
+        echo "Haciendo el poderoso commit!"
+        date > generated.txt
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "GitHub Actions: This is cool!"
+        git push
