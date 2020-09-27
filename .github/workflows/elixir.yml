@@ -25,7 +25,7 @@ jobs:
     - name: Run tests
       run: mix test
     - name: "Commit CI"
-			run: |
+      run: |
         echo "Haciendo el poderoso commit!"
         date > generated.txt
         git config user.name github-actions
