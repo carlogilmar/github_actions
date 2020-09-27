@@ -3,6 +3,6 @@ defmodule GithubActionsTest do
   doctest GithubActions
 
   test "greets the world" do
-    assert 1 == 2
+    assert 1 == 1
   end
 end
