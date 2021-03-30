@@ -1,4 +1,4 @@
-# GithubActions
+# GitHubActions
 
 **TODO: Add description**
 
